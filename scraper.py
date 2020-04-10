@@ -10,7 +10,7 @@ from csv import DictReader
 URL = "https://www.lsa.umich.edu/cg/cg_results.aspx?termArray=f_20_2310&cgtype=ug&show=200&numlvl=300&numlvl=400&department=EECS"
 
 r = requests.get(URL)
-
+#test
 soup = BeautifulSoup(r.content, 'html5lib')
 
 courses = []
